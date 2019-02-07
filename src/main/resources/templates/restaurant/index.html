@@ -1,7 +1,7 @@
 <DOCTYPE html>
 <html xmlns:th="http://thymeleaf.org">
 <head>
-<title>Restaurant!</title>
+<title>Charlotte Restaurants</title>
 <meta http-equiv="Content-Type" : content="text/html; charset=UTF-8" />
 <link href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,13 +28,13 @@
 		</div>
 	</div>	
 	<div class="card" style="width: 18rem;">
-  <img src="/Users/reececlark115/Documents/TTS/CharlotteSkyline.jpg" class="card-img-top" alt="CharlotteSkyline">
+  <img href="/Users/reececlark115/Documents/TTS/CharlotteSkyline.jpg" alt="CharlotteSkyline">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Charlotte has amazing restaurants, we look forward to you being a part of the movement!!</p>
     <a href="/new" class="btn btn-primary">Register your Restaurant!</a>
   </div>
-  
+  	<br/>
 	<a th:href="@{/new}"><button class="btn btn-primary">
 	Submit a New Restaurant! </button></a>
 </div>
